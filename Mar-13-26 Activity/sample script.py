@@ -2,7 +2,7 @@
 """
 Created on Fri Mar 13 17:52:21 2026
 
-@author: h4_J1
+@author: Labide
 """
 
 import numpy as np # linear algebra
@@ -76,4 +76,5 @@ f, (ax1, ax2) = plt.subplots(1, 2, sharey=True,figsize=(10,6))
 ax1.set_title('K Means')
 ax1.scatter(data[0][:,0],data[0][:,1],c=kmeans.labels_,cmap='rainbow')
 ax2.set_title("Original")
+
 ax2.scatter(data[0][:,0],data[0][:,1],c=data[1],cmap='rainbow')   
