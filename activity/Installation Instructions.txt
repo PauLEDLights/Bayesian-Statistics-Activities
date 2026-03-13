@@ -1,0 +1,14 @@
+Installation Instructions:
+
+1. Install Miniconda
+2. Open Anaconda Prompt
+3. Type the following: 
+conda create -n my-env -c conda-forge spyder-kernels scikit-learn matplotlib pandas seaborn
+4. Press enter, and type and enter "y" when prompted.
+5. To activate the environment type:
+conda activate my-env
+6. Open Spyder
+7. Go to Tools > Preferences, then go to Python Interpreter
+8. Select "Selected Interpreter:"
+9. In the dropdown, select the option with "...miniconda3\envs\my-env\python.exe"
+10. Press "OK"
