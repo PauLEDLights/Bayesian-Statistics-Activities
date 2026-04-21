@@ -1,0 +1,11 @@
+Example:
+https://machinelearningplus.com/predictive-modeling/how-naive-bayes-algorithm-works-with-example-and-full-code/
+
+The objective of this example is to predict current human activity based on phisiological activity measurements from 53 different features based in the HAR dataset.
+https://web.archive.org/web/20210417051205/http://groupware.les.inf.puc-rio.br/har#sbia_paper_section
+
+The training and test datasets are provided.
+https://raw.githubusercontent.com/selva86/datasets/master/har_train.csv
+https://raw.githubusercontent.com/selva86/datasets/master/har_validate.csv
+
+Build a Naive Bayes model, predict on the test dataset and compute the confusion matrix.
